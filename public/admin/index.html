@@ -8,6 +8,18 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
+    <!-- 调试：检查 Netlify Identity 状态 -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            console.log("用户未登录");
+          } else {
+            console.log("用户已登录:", user.email);
+          }
+        });
+      }
+    </script>
     <!-- Decap CMS 核心脚本 -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>

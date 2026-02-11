@@ -1,0 +1,22 @@
+# .github/workflows/deploy.yml
+name: Deploy to Cloudflare Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Hugo site
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/latest/download/hugo_extended_Linux-amd64.tar.gz
+          tar -xzf hugo_extended_Linux-amd64.tar.gz
+          ./hugo --minify
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: your-project-name
+          directory: public
