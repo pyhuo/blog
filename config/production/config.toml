@@ -1,0 +1,9 @@
+# 生产环境配置 - HUGO_ENV=production 时生效
+# 构建命令: hugo --environment production
+
+baseURL = 'https://example.org/'
+
+[params]
+  environment = "production"
+  # 生产环境可启用分析、CDN 等配置
+  # enableAnalytics = true

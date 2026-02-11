@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Hugo 站点</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in Blog on Hugo 站点</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Feb 2026 20:22:13 +0800</lastBuildDate>
+    <atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Cool Post</title>
+      <link>https://example.org/blog/another-cool-post/</link>
+      <pubDate>Wed, 11 Feb 2026 20:22:13 +0800</pubDate>
+      <guid>https://example.org/blog/another-cool-post/</guid>
+      <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;&#xA;&lt;p&gt;在这里写下文章的引言部分。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Awesome Post</title>
+      <link>https://example.org/blog/my-awesome-post/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>https://example.org/blog/my-awesome-post/</guid>
+      <description>&lt;h1 id=&#34;my-awesome-post&#34;&gt;My Awesome Post&lt;/h1&gt;&#xA;&lt;p&gt;这是一篇使用 Hugo 叶子包（Leaf Bundle）结构的文章，页面资源与内容放在同一目录。&lt;/p&gt;&#xA;&lt;p&gt;特色图片&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/blog/my-awesome-post/hero-image.jpg&#34; alt=&#34;Hero Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;流程图&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/blog/my-awesome-post/diagram.png&#34; alt=&#34;Diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;数据&lt;/p&gt;&#xA;&lt;p&gt;页面附带的 &lt;code&gt;data.json&lt;/code&gt; 可通过 &lt;code&gt;.Resources&lt;/code&gt; 在模板中访问。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

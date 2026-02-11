@@ -1,0 +1,17 @@
+# Netlify 构建配置
+# 部署到 Netlify 时，Decap CMS 的身份认证（Netlify Identity + Git Gateway）才能正常使用
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "latest"
+  HUGO_ENV = "production"
+
+[context.production]
+  command = "hugo --minify"
+
+# 预览分支：包含草稿和未来日期的文章
+[context.deploy-preview]
+  command = "hugo --buildDrafts --buildFuture"

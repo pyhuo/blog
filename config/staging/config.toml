@@ -1,0 +1,9 @@
+# 预发布/测试环境配置 - HUGO_ENV=staging 时生效
+# 构建命令: hugo --environment staging
+
+baseURL = 'https://staging.example.org/'
+
+[params]
+  environment = "staging"
+  # 预发布环境可禁用分析
+  # enableAnalytics = false

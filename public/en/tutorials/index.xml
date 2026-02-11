@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Hugo Site</title>
+    <link>https://example.org/en/tutorials/</link>
+    <description>Recent content in Tutorials on Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/en/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced</title>
+      <link>https://example.org/en/tutorials/advanced/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/en/tutorials/advanced/</guid>
+      <description>&lt;h1 id=&#34;advanced&#34;&gt;Advanced&lt;/h1&gt;&#xA;&lt;p&gt;Advanced tutorials - leaf bundle.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/en/tutorials/advanced/screenshot1.png&#34; alt=&#34;Screenshot 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/en/tutorials/advanced/screenshot2.png&#34; alt=&#34;Screenshot 2&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Advanced tutorial page under the tutorials branch bundle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>https://example.org/en/tutorials/introduction/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/en/tutorials/introduction/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Getting started - leaf bundle.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/en/tutorials/introduction/intro-diagram.png&#34; alt=&#34;Intro Diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;First subpage under the tutorials branch bundle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

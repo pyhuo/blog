@@ -1,0 +1,21 @@
+{{/*
+  多语言切换器
+  用法: {{ partial "i18n/language-switcher.html" . }}
+*/}}
+{{ if .IsTranslated }}
+  <nav class="language-switcher" aria-label="{{ i18n "translations" }}">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </nav>
+{{ else }}
+  {{ with $.Site.Home.AllTranslations }}
+    <nav class="language-switcher" aria-label="{{ i18n "translations" }}">
+      {{ range . }}
+        <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" {{ if eq $.Site.Language.Lang .Language.Lang }}class="active"{{ end }}>
+          {{ .Language.LanguageName }}
+        </a>
+      {{ end }}
+    </nav>
+  {{ end }}
+{{ end }}

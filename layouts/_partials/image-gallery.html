@@ -1,0 +1,45 @@
+{{/*
+  图片画廊组件
+  用法: {{ partial "image-gallery.html" . }}
+  传入当前页面上下文，自动获取页面包中的图片资源
+*/}}
+{{ $images := .Resources.ByType "image" }}
+{{ if $images }}
+<div class="image-gallery">
+  {{ range $images }}
+    {{ $thumb := .Fill "300x200 Smart" }}
+    {{ $full := .Resize "1200x q85" }}
+    <div class="gallery-item">
+      <a href="{{ $full.RelPermalink }}" data-lightbox="gallery" data-title="{{ .Title }}">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Params.alt | default .Title }}" loading="lazy">
+      </a>
+      {{ with .Params.caption }}
+        <p class="gallery-caption">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+<style>
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.gallery-item a {
+  display: block;
+  overflow: hidden;
+}
+.gallery-caption {
+  margin: 0.5rem 0 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+</style>
+{{ end }}

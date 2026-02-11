@@ -1,0 +1,6 @@
+- id: "johndoe"
+  name: "John Doe"
+  bio: "A tech writer."
+- id: "janedoe"
+  name: "Jane Doe"
+  bio: "A web developer."

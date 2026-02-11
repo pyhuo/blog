@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My First Post | Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="1层级	文件位置	用途
+2基础模板	layouts/_default/baseof.html	页面骨架、全局结构
+3列表模板	layouts/_default/list.html	分类、标签、首页列表
+4单页模板	layouts/_default/single.html	文章详情页
+5类型模板	layouts/posts/single.html	特定内容类型模板
+6部分模板	layouts/partials/	可复用组件
+内容管理基础
+my-site/
+├── archetypes/     # 内容模板
+├── assets/         # 资源文件（需要处理的）
+├── content/        # 内容源文件
+├── data/          # 数据文件
+├── layouts/       # 布局模板
+├── static/        # 静态文件（直接复制）
+├── themes/        # 主题
+└── hugo.toml      # 配置文件
+content 目录结构
+content/
+├── _index.md              # 网站首页内容
+├── about.md               # 关于页面
+├── posts/                 # 文章目录
+│   ├── _index.md         # 文章列表页
+│   ├── first-post.md     # 单个文章
+│   └── second-post.md    
+├── projects/              # 项目目录
+│   ├── _index.md         # 项目列表页
+│   └── project-one/      # 页面包
+│       ├── index.md      # 项目详情
+│       ├── image1.jpg    # 项目资源
+│       └── image2.jpg    
+└── docs/                 # 文档目录
+    ├── _index.md         # 文档首页
+    ├── getting-started.md
+    └── advanced/
+        ├── _index.md
+        └── configuration.md
+">
+    <meta name="generator" content="Hugo 0.154.5">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="cursor">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://example.org/en/posts/my-first-post/">
+    
+
+    
+    
+    <meta property="og:url" content="https://example.org/en/posts/my-first-post/">
+  <meta property="og:site_name" content="Hugo Site">
+  <meta property="og:title" content="My First Post">
+  <meta property="og:description" content="1层级	文件位置	用途 2基础模板	layouts/_default/baseof.html	页面骨架、全局结构 3列表模板	layouts/_default/list.html	分类、标签、首页列表 4单页模板	layouts/_default/single.html	文章详情页 5类型模板	layouts/posts/single.html	特定内容类型模板 6部分模板	layouts/partials/	可复用组件 内容管理基础 my-site/ ├── archetypes/ # 内容模板 ├── assets/ # 资源文件（需要处理的） ├── content/ # 内容源文件 ├── data/ # 数据文件 ├── layouts/ # 布局模板 ├── static/ # 静态文件（直接复制） ├── themes/ # 主题 └── hugo.toml # 配置文件 content 目录结构 content/ ├── _index.md # 网站首页内容 ├── about.md # 关于页面 ├── posts/ # 文章目录 │ ├── _index.md # 文章列表页 │ ├── first-post.md # 单个文章 │ └── second-post.md ├── projects/ # 项目目录 │ ├── _index.md # 项目列表页 │ └── project-one/ # 页面包 │ ├── index.md # 项目详情 │ ├── image1.jpg # 项目资源 │ └── image2.jpg └── docs/ # 文档目录 ├── _index.md # 文档首页 ├── getting-started.md └── advanced/ ├── _index.md └── configuration.md">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-11T19:32:16+08:00">
+    <meta property="article:modified_time" content="2026-02-11T19:32:16+08:00">
+
+  <meta itemprop="name" content="My First Post">
+  <meta itemprop="description" content="1层级	文件位置	用途 2基础模板	layouts/_default/baseof.html	页面骨架、全局结构 3列表模板	layouts/_default/list.html	分类、标签、首页列表 4单页模板	layouts/_default/single.html	文章详情页 5类型模板	layouts/posts/single.html	特定内容类型模板 6部分模板	layouts/partials/	可复用组件 内容管理基础 my-site/ ├── archetypes/ # 内容模板 ├── assets/ # 资源文件（需要处理的） ├── content/ # 内容源文件 ├── data/ # 数据文件 ├── layouts/ # 布局模板 ├── static/ # 静态文件（直接复制） ├── themes/ # 主题 └── hugo.toml # 配置文件 content 目录结构 content/ ├── _index.md # 网站首页内容 ├── about.md # 关于页面 ├── posts/ # 文章目录 │ ├── _index.md # 文章列表页 │ ├── first-post.md # 单个文章 │ └── second-post.md ├── projects/ # 项目目录 │ ├── _index.md # 项目列表页 │ └── project-one/ # 页面包 │ ├── index.md # 项目详情 │ ├── image1.jpg # 项目资源 │ └── image2.jpg └── docs/ # 文档目录 ├── _index.md # 文档首页 ├── getting-started.md └── advanced/ ├── _index.md └── configuration.md">
+  <meta itemprop="datePublished" content="2026-02-11T19:32:16+08:00">
+  <meta itemprop="dateModified" content="2026-02-11T19:32:16+08:00">
+  <meta itemprop="wordCount" content="123">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="My First Post">
+  <meta name="twitter:description" content="1层级	文件位置	用途 2基础模板	layouts/_default/baseof.html	页面骨架、全局结构 3列表模板	layouts/_default/list.html	分类、标签、首页列表 4单页模板	layouts/_default/single.html	文章详情页 5类型模板	layouts/posts/single.html	特定内容类型模板 6部分模板	layouts/partials/	可复用组件 内容管理基础 my-site/ ├── archetypes/ # 内容模板 ├── assets/ # 资源文件（需要处理的） ├── content/ # 内容源文件 ├── data/ # 数据文件 ├── layouts/ # 布局模板 ├── static/ # 静态文件（直接复制） ├── themes/ # 主题 └── hugo.toml # 配置文件 content 目录结构 content/ ├── _index.md # 网站首页内容 ├── about.md # 关于页面 ├── posts/ # 文章目录 │ ├── _index.md # 文章列表页 │ ├── first-post.md # 单个文章 │ └── second-post.md ├── projects/ # 项目目录 │ ├── _index.md # 项目列表页 │ └── project-one/ # 页面包 │ ├── index.md # 项目详情 │ ├── image1.jpg # 项目资源 │ └── image2.jpg └── docs/ # 文档目录 ├── _index.md # 文档首页 ├── getting-started.md └── advanced/ ├── _index.md └── configuration.md">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-page is-page page-my-first-post">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/en/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" >
+              中文
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/en/" aria-current="page">
+              English
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<h4>Languages</h4>
+<ul class="pl0 mr3">
+    
+    <li class="list f5 f4-ns fw4 dib pr3">
+        <a class="hover-white white-90 no-underline" href="/posts/my-first-post/">zh</a>
+    </li>
+    
+</ul>
+
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-my-first-post flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">My First Post</h1>
+      
+      <p class="tracked"><strong>cursor</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-02-11T19:32:16+08:00">February 11, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln">1</span><span class="cl">层级	文件位置	用途
+</span></span><span class="line"><span class="ln">2</span><span class="cl">基础模板	layouts/_default/baseof.html	页面骨架、全局结构
+</span></span><span class="line"><span class="ln">3</span><span class="cl">列表模板	layouts/_default/list.html	分类、标签、首页列表
+</span></span><span class="line"><span class="ln">4</span><span class="cl">单页模板	layouts/_default/single.html	文章详情页
+</span></span><span class="line"><span class="ln">5</span><span class="cl">类型模板	layouts/posts/single.html	特定内容类型模板
+</span></span><span class="line"><span class="ln">6</span><span class="cl">部分模板	layouts/partials/	可复用组件
+</span></span></code></pre></div><h1 id="内容管理基础"><a href="https://jimmysong.io/zh/book/hugo-handbook/content-organization/content-management/">内容管理基础</a></h1>
+<pre tabindex="0"><code>my-site/
+├── archetypes/     # 内容模板
+├── assets/         # 资源文件（需要处理的）
+├── content/        # 内容源文件
+├── data/          # 数据文件
+├── layouts/       # 布局模板
+├── static/        # 静态文件（直接复制）
+├── themes/        # 主题
+└── hugo.toml      # 配置文件
+</code></pre><h1 id="content-目录结构">content 目录结构</h1>
+<pre tabindex="0"><code>content/
+├── _index.md              # 网站首页内容
+├── about.md               # 关于页面
+├── posts/                 # 文章目录
+│   ├── _index.md         # 文章列表页
+│   ├── first-post.md     # 单个文章
+│   └── second-post.md    
+├── projects/              # 项目目录
+│   ├── _index.md         # 项目列表页
+│   └── project-one/      # 页面包
+│       ├── index.md      # 项目详情
+│       ├── image1.jpg    # 项目资源
+│       └── image2.jpg    
+└── docs/                 # 文档目录
+    ├── _index.md         # 文档首页
+    ├── getting-started.md
+    └── advanced/
+        ├── _index.md
+        └── configuration.md
+</code></pre><ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://example.org/en/" >
+    &copy;  Hugo Site 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

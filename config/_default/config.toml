@@ -1,0 +1,50 @@
+# Hugo 基础配置 - 适用于所有环境
+# https://gohugo.io/getting-started/configuration/
+
+baseURL = 'https://example.org/'
+theme = 'ananke'
+
+# 多语言配置
+defaultContentLanguage = "zh"
+
+[languages]
+  [languages.zh]
+    contentDir = "content/zh"
+    languageCode = "zh-cn"
+    languageName = "中文"
+    weight = 1
+    title = "Hugo 站点"
+    [languages.zh.params]
+      description = "这是我的 Hugo 站点描述"
+
+  [languages.en]
+    contentDir = "content/en"
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    title = "Hugo Site"
+    [languages.en.params]
+      description = "This is my Hugo site description"
+
+[params]
+  author = "cursor"
+  environment = "default"
+  mainSections = ["posts", "blog"]
+
+  [params.ananke]
+    show_recent_posts = true
+
+  # 全局资源配置（使用 resourceImages 避免与 Hugo 内部模板冲突）
+  [params.resourceImages]
+    quality = 85           # 图片质量
+    resize = "800x600"     # 默认图片处理尺寸
+    webp = true            # 启用 WebP 转换
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.highlight]
+    style = 'github'
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>首页 on Hugo 站点</title>
+    <link>https://example.org/</link>
+    <description>Recent content in 首页 on Hugo 站点</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 11 Feb 2026 20:22:13 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Cool Post</title>
+      <link>https://example.org/blog/another-cool-post/</link>
+      <pubDate>Wed, 11 Feb 2026 20:22:13 +0800</pubDate>
+      <guid>https://example.org/blog/another-cool-post/</guid>
+      <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;&#xA;&lt;p&gt;在这里写下文章的引言部分。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>03</title>
+      <link>https://example.org/posts/03/</link>
+      <pubDate>Wed, 11 Feb 2026 19:55:35 +0800</pubDate>
+      <guid>https://example.org/posts/03/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>02</title>
+      <link>https://example.org/posts/02/</link>
+      <pubDate>Wed, 11 Feb 2026 19:51:27 +0800</pubDate>
+      <guid>https://example.org/posts/02/</guid>
+      <description>&lt;h1 id=&#34;标题&#34;&gt;标题&lt;/h1&gt;&#xA;&lt;h2 id=&#34;支持的扩展&#34;&gt;支持的扩展&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CJK 支持（中日韩文字）&lt;/li&gt;&#xA;&lt;li&gt;定义列表&lt;/li&gt;&#xA;&lt;li&gt;脚注&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/li&gt;&#xA;&lt;li&gt;表格&lt;/li&gt;&#xA;&lt;li&gt;任务列表&lt;/li&gt;&#xA;&lt;li&gt;排版功能&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;定义列表示例&#34;&gt;定义列表示例&lt;/h2&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;苹果&lt;/dt&gt;&#xA;&lt;dd&gt;一种水果&lt;/dd&gt;&#xA;&lt;dt&gt;橙子&lt;/dt&gt;&#xA;&lt;dd&gt;另一种水果&lt;/dd&gt;&#xA;&lt;/dl&gt;&#xA;&lt;h2 id=&#34;表格示例&#34;&gt;表格示例&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;功能&lt;/th&gt;&#xA;          &lt;th&gt;支持&lt;/th&gt;&#xA;          &lt;th&gt;备注&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;基本 Markdown&lt;/td&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td&gt;完全支持&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;扩展语法&lt;/td&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td&gt;部分支持&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;任务列表&#34;&gt;任务列表&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 已完成任务&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 未完成任务&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;行内公式：$E = mc^2$&#xA;&#xA;块级公式：&#xA;$$\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n$$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;maermaid&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TD&#xA;    A[开始] --&amp;gt; B[处理]&#xA;    B --&amp;gt; C[结束]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://assets.jimmysong.io/images/book/hugo-handbook/content-organization/content-management/adbc82f24d57da8916b43b20221be729.svg&#34; alt=&#34;Mermaid Diagram&#34;&gt;&#xA;{width=1920 height=6178}&lt;/p&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;这是脚注内容&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Wed, 11 Feb 2026 19:32:16 +0800</pubDate>
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;层级&#x9;文件位置&#x9;用途&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;基础模板&#x9;layouts/_default/baseof.html&#x9;页面骨架、全局结构&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;列表模板&#x9;layouts/_default/list.html&#x9;分类、标签、首页列表&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;单页模板&#x9;layouts/_default/single.html&#x9;文章详情页&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;类型模板&#x9;layouts/posts/single.html&#x9;特定内容类型模板&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;部分模板&#x9;layouts/partials/&#x9;可复用组件&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;内容管理基础&#34;&gt;&lt;a href=&#34;https://jimmysong.io/zh/book/hugo-handbook/content-organization/content-management/&#34;&gt;内容管理基础&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;my-site/&#xA;├── archetypes/     # 内容模板&#xA;├── assets/         # 资源文件（需要处理的）&#xA;├── content/        # 内容源文件&#xA;├── data/          # 数据文件&#xA;├── layouts/       # 布局模板&#xA;├── static/        # 静态文件（直接复制）&#xA;├── themes/        # 主题&#xA;└── hugo.toml      # 配置文件&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;content-目录结构&#34;&gt;content 目录结构&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;content/&#xA;├── _index.md              # 网站首页内容&#xA;├── about.md               # 关于页面&#xA;├── posts/                 # 文章目录&#xA;│   ├── _index.md         # 文章列表页&#xA;│   ├── first-post.md     # 单个文章&#xA;│   └── second-post.md    &#xA;├── projects/              # 项目目录&#xA;│   ├── _index.md         # 项目列表页&#xA;│   └── project-one/      # 页面包&#xA;│       ├── index.md      # 项目详情&#xA;│       ├── image1.jpg    # 项目资源&#xA;│       └── image2.jpg    &#xA;└── docs/                 # 文档目录&#xA;    ├── _index.md         # 文档首页&#xA;    ├── getting-started.md&#xA;    └── advanced/&#xA;        ├── _index.md&#xA;        └── configuration.md&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Advanced</title>
+      <link>https://example.org/tutorials/advanced/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tutorials/advanced/</guid>
+      <description>&lt;h1 id=&#34;advanced&#34;&gt;Advanced&lt;/h1&gt;&#xA;&lt;p&gt;进阶教程 - 子叶子包。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/tutorials/advanced/screenshot1.png&#34; alt=&#34;Screenshot 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/tutorials/advanced/screenshot2.png&#34; alt=&#34;Screenshot 2&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;这是 tutorials 分支包下的进阶教程页面。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>https://example.org/tutorials/introduction/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tutorials/introduction/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;入门教程 - 子叶子包。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/tutorials/introduction/intro-diagram.png&#34; alt=&#34;Intro Diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;这是 tutorials 分支包下的第一个子页面。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>04</title>
+      <link>https://example.org/posts/04/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>https://example.org/posts/04/</guid>
+      <description>&lt;h1 id=&#34;04&#34;&gt;04&lt;/h1&gt;&#xA;&lt;p&gt;发布于 2025 年 02 月 11 日。&lt;/p&gt;&#xA;&lt;h2 id=&#34;内容开始&#34;&gt;内容开始&lt;/h2&gt;&#xA;&lt;p&gt;在这里编写你的内容&amp;hellip;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;image-gallery&#34;&gt;&#xA;  &#xA;    &#xA;    &#xA;    &lt;div class=&#34;gallery-item&#34;&gt;&#xA;      &lt;a href=&#34;https://example.org/posts/04/diagram_hu_30d9f4c611b0a49.png&#34; data-lightbox=&#34;gallery&#34; data-title=&#34;示意图&#34;&gt;&#xA;        &lt;img src=&#34;https://example.org/posts/04/diagram_hu_4ee64e333ab08ec0.png&#34; alt=&#34;流程图&#34; loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;  &#xA;    &#xA;    &#xA;    &lt;div class=&#34;gallery-item&#34;&gt;&#xA;      &lt;a href=&#34;https://example.org/posts/04/hero-image_hu_23aa2c49d79e271.jpg&#34; data-lightbox=&#34;gallery&#34; data-title=&#34;主图&#34;&gt;&#xA;        &lt;img src=&#34;https://example.org/posts/04/hero-image_hu_8bf26fb792e4d864.jpg&#34; alt=&#34;文章主图&#34; loading=&#34;lazy&#34;&gt;&#xA;      &lt;/a&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;&#xA;&lt;style&gt;&#xA;.image-gallery {&#xA;  display: grid;&#xA;  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));&#xA;  gap: 1rem;&#xA;  margin: 1.5rem 0;&#xA;}&#xA;.gallery-item img {&#xA;  width: 100%;&#xA;  height: 200px;&#xA;  object-fit: cover;&#xA;  border-radius: 4px;&#xA;}&#xA;.gallery-item a {&#xA;  display: block;&#xA;  overflow: hidden;&#xA;}&#xA;.gallery-caption {&#xA;  margin: 0.5rem 0 0;&#xA;  font-size: 0.875rem;&#xA;  color: #666;&#xA;}&#xA;&lt;/style&gt;</description>
+    </item>
+    <item>
+      <title>My Awesome Post</title>
+      <link>https://example.org/blog/my-awesome-post/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>https://example.org/blog/my-awesome-post/</guid>
+      <description>&lt;h1 id=&#34;my-awesome-post&#34;&gt;My Awesome Post&lt;/h1&gt;&#xA;&lt;p&gt;这是一篇使用 Hugo 叶子包（Leaf Bundle）结构的文章，页面资源与内容放在同一目录。&lt;/p&gt;&#xA;&lt;p&gt;特色图片&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/blog/my-awesome-post/hero-image.jpg&#34; alt=&#34;Hero Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;流程图&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/blog/my-awesome-post/diagram.png&#34; alt=&#34;Diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;数据&lt;/p&gt;&#xA;&lt;p&gt;页面附带的 &lt;code&gt;data.json&lt;/code&gt; 可通过 &lt;code&gt;.Resources&lt;/code&gt; 在模板中访问。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
